@@ -1,4 +1,4 @@
-#include "funkcja.h"
+#include <iostream>
 using namespace std;
 void podpis ()
 {

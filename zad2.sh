@@ -1,3 +1,6 @@
 #!/bin/bash
-g++ funkcja.cpp main.cpp -o zadanie && ./zadanie
+g++ main.cpp funkcja.cpp -o zadanie 
+if [ -e zadanie ]; then
+ ./zadanie;
+fi
 
